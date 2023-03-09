@@ -6,4 +6,4 @@
 
 3. Execute o comando ```pipenv shell``` para entrar no ambiente virtual da aplicação e em seguida ```flask run``` para rodar o projeto.
 
-Obs: se necessário rode o comando ```env:FLASK_DEBUG=1``` antes de ```flask run``` para rodar com o debug ativado.
+Obs: se necessário rode o comando ```$env:FLASK_DEBUG=1``` antes de ```flask run``` para rodar com o debug ativado.
