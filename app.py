@@ -25,7 +25,10 @@ from user import routes
 def home():
     return render_template('home.html')
 
-
 @app.route('/dashboard/')
 def dashboard():
     return render_template('dashboard.html')
+
+@app.route('/toDoList')
+def toDoList():
+    return render_template('toDoList.html')
